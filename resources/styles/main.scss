@@ -1,0 +1,134 @@
+.width{
+    @apply w-full sm:w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 mx-auto;
+}
+.inner-width{
+    @apply w-full sm:mx-5 md:mx-10 lg:w-11/12 2xl:w-10/12 mx-auto;
+}
+
+.gridbox{
+    @apply py-3 px-3 md:px-0 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-6 gap-3 gap-y-5;
+}
+
+.width-icon{
+    @apply w-4 h-4 sm:w-5 sm:h-5;
+}
+
+.hover-bg{
+    @apply hover:bg-gray-200 cursor-pointer;
+}
+.border-color{
+    @apply border-gray-300;
+}
+.bg-active_{
+    @apply bg-gray-100 text-primary;
+
+}
+.bg-active{
+    @apply bg-primary text-gray-400;
+}
+.text-active, .active-text {
+    @apply text-primary;
+}
+
+// Buttons
+.btn-outline-primary{
+    @apply transition duration-150 ease-out rounded-md px-3 py-2 shadow border border-primary text-primary hover:bg-red-50 cursor-pointer;
+}
+.btn-primary{
+    @apply transition duration-150 ease-out rounded-md px-3 py-2 text-white shadow border bg-primary hover:bg-red-600 cursor-pointer;
+}
+
+.btn-bg-gray{
+    @apply transition duration-150 ease-out mx-auto bg-gray-50 hover:bg-gray-200 py-2 px-3 text-center  text-primary cursor-pointer rounded-md;
+}
+
+.notificationOpen{
+    @apply  bottom-0 opacity-100;
+}
+.notificationClosed{
+    @apply  opacity-0 -bottom-32;
+}
+.toastOpen{
+    @apply  top-16 opacity-100;
+}
+.toastClosed{
+    @apply  opacity-0 -top-96;
+}
+
+.flex-between-center{
+    @apply flex items-center justify-between;
+}
+.flex-between{
+    @apply flex justify-between;
+}
+.flex-center{
+    @apply flex items-center;
+}
+
+.flex-center-center{
+    @apply flex justify-center items-center;
+}
+
+
+.nav-link{
+    @apply rounded mr-1 py-5 px-2 hover:bg-primary font-medium uppercase;
+}
+
+.nav-link-{
+    @apply px-5 py-3 cursor-pointer hover:bg-gray-200;
+}
+
+.nav-link-drop-item-{
+    @apply pl-10 px-5 py-3 cursor-pointer hover:bg-gray-200;
+}
+
+.nav-link-drop-{
+    @apply px-5 py-3  hover:bg-gray-200 cursor-pointer;
+}
+
+.nav-link-active-{
+    @apply bg-gray-100 border-r-4 border-primary text-primary ;
+}
+
+.transition-ease{
+    @apply transition-all ease-in-out duration-300;
+}
+
+
+.card-white{
+    @apply mx-5 md:mx-0 rounded-md bg-white shadow-md mx-5 md:mx-0 rounded-md bg-white shadow-md mx-5 md:mx-0 rounded-md bg-white shadow-md;
+}
+
+.divider{
+    @apply bg-primary w-24 h-1 shadow-none border-none my-3;
+}
+
+.newly-loaded{
+    animation: glow 1s ease-out;
+
+}
+
+span.error{
+    @apply font-medium text-red-500;
+}
+
+.slide-up{
+    animation: slide-up 0.4s ease;
+}
+
+.animated_up{
+    @apply transition-none duration-200 ease-out  hover:shadow-lg transform hover:-translate-y-2;
+}
+
+.error{
+    @apply text-red-500 font-semibold py-2;
+}
+
+
+.form-input{
+    @apply px-4 py-2 border focus:ring-gray-500 focus:border-gray-900 w-full sm:text-sm border-gray-300 rounded-md focus:outline-none text-gray-600;
+}
+
+.btn-gradient{
+    @apply border transition-ease border-white uppercase rounded-md bg-gradient-to-r from-yellow-400 to-red-500 text-white font-semibold py-2 px-3 hover:shadow-md hover:to-yellow-400;
+}
